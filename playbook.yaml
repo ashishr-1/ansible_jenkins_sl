@@ -6,3 +6,7 @@
     user:
       name: Ashish
       state: present
+  - name: "ensure Alex user exists"
+    user:
+      name: alex
+      state: absent
